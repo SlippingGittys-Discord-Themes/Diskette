@@ -1,0 +1,69 @@
+/**
+ * @name Diskette
+ * @author vozy
+ * @version 0.1a
+ * @description A terminally-ill Discord theme inspired by the Spotify-Tui theme
+**/
+
+/* -----------------------------------------------------------------------------------------------------------------------
+
+VOZY THE FUCKING FILE NEEDS THE ".THEME.CSS" EXTENSION YOU GOD DAMMNED IDIOT YOU SUTPID MOTHER FUCKER I DIDNT PAY YOU TO BE THIS STUPID
+
+hold on one second
+
+take a look at all the files here.
+
+does it LOOK like this theme is ready to be finished?
+
+the bulk of this theme is literally over folowing with hold overs from my last theme because im lazy and didnt wanna start from scratch
+
+take a look at all the files here.
+
+the file name is that way so bumbling anime tiddy discord translucency theme message logger cache they havent cleared in months retards dont come out of the wood work and ask
+a million questions.
+
+only wood work i need is you working on mine
+
+teehee <3
+
+if you want this theme to work, rename the file to "Diskette.theme.css". this is an alpha.
+
+want to help? HOLY FUCK GOOD LUCK. im dense as hell and id be surprised if you could make sense of anything
+
+ ----------------------------------------------------------------------------------------------------------------------- */
+
+/*
+   _    ____  _     _        _   _               __             __
+  | |  |  _ \(_)___| | _____| |_| |_ ___         \ \           / /
+ / __) | | | | / __| |/ / _ \ __| __/ _ \         \ \         / / 
+ \__ \ | |_| | \__ \   <  __/ |_| ||  __/_ _ _    / /         \ \ 
+ (   / |____/|_|___/_|\_\___|\__|\__\___(_|_|_)  /_/   _____   \_\
+  |_|                                                 |_____|     
+*/
+
+
+/* -- ▼▼▼ DO NOT TOUCH ▼▼▼ -------------------------------------------------------------------------------------------------------------------- */ 
+
+/* 🚫🚫🚫 Base Theme - Do NOT Eject - Literally notheme 🚫🚫🚫 */
+@import url('https://slippinggittys-discord-themes.github.io/Diskette/User/Vozy/Documents/source files/base.css');
+
+/*  🔌🔌🔌 Diskette Plugin - Do NOT Eject 🔌🔌🔌 */
+@import url('https://slippinggittys-discord-themes.github.io/Diskette/User/Vozy/Documents/source files/everything else/selectors.css');
+
+/* -- ▲▲▲ DO NOT TOUCH ▲▲▲ -------------------------------------------------------------------------------------------------------------------- */
+
+/* Color Scheme */
+@import url('https://slippinggittys-discord-themes.github.io/Diskette/User/Vozy/Documents/goodies/Color Schemes/Default.css');
+
+/* [][][][][][] Fancy Window Title Headers [][][][][][] */
+@import url('https://slippinggittys-discord-themes.github.io/Diskette/User/Vozy/Documents/source files/everything else/border headers.css');
+
+/* x-x-x-x-x Font x-x-x-x-x */
+@import url('https://slippinggittys-discord-themes.github.io/Diskette/User/Vozy/Documents/goodies/Fonts/DM Mono.css');
+
+/* >>>>>> Window Padding <<<<<<< */
+.content__76dcf {
+  margin: 30px;
+}
+
+
