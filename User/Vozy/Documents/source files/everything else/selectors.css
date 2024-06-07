@@ -98,14 +98,16 @@
 
 /* Members Sidebar */
 .members__573eb {
-  margin-top: 5px;
-  margin-left: 10px;
-  margin-right: 15px;
-  margin-bottom: 25px !important;
-  border: solid 1px var(--accentD);
+  margin: 0px 5px 28px 10px !important;
+  border: solid 1px grey;
 }
-.container_f79ab4,
-.membersWrap__5ca6b:hover {
+.members__573eb:hover {
+  border: solid 1px var(--bordersH);
+}
+.membersWrap__5ca6b {
+  border: transparent;
+}
+.container_f79ab4 {
   border-color: var(--bordersH);
 }
 
