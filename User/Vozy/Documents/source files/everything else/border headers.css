@@ -39,10 +39,10 @@
 }
 
 .membersWrap__5ca6b:after {
-  content: "Chat";
+  content: "Members";
   position: absolute;
   top: -5px;
-  left: 15%;
+  left: 16%;
   transform: translateX(-50%);
   background-color: var(--projectCabBackground);
   padding: 0 5px;
