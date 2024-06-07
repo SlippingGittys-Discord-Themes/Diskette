@@ -50,3 +50,16 @@
   font-family: var(--font-display);
   font-size: 10px;
 }
+
+ .sidebar_e031be:after {
+  content: "Channels";
+  position: absolute;
+  top: -2px;
+  left: 3%;
+  transform: translateX(-50%);
+  background-color: var(--projectCabBackground);
+  padding: 0 5px;
+  color: var(--accent);
+  font-family: var(--font-display);
+  font-size: 10px;
+}
