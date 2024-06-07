@@ -1,52 +1,39 @@
 /* Fancy Text Headers*/
-.theme-dark .themed_b152d4 {
-    background-color: var(--projectCabTitleBar);
-    border: var(--borders);
-    margin: 0 0 10px -10px;
-    padding: 0;
-}
-
 .theme-dark .themed_b152d4:before {
-    content: "Desc.";
-    position: absolute;
-    top: -6px;
-    left: 2%;
-    transform: translateX(-50%);
-    background-color: var(--projectCabTitleBar);
-    padding: 0 5px;
-    color: var(--accent);
-    font-family: var(--font-display);
-    font-size: 10px;
+  content: "Desc.";
+  position: absolute;
+  top: -6px;
+  left: 2%;
+  transform: translateX(-50%);
+  background-color: var(--projectCabTitleBar);
+  padding: 0 5px;
+  color: var(--accent);
+  font-family: var(--font-display);
+  font-size: 10px;
 }
 
 .scrollableContainer_ff917f:before {
-    content: "Chat";
-    position: absolute;
-    top: -10px;
-    left: 50%;
-    transform: translateX(-50%);
-    background-color: var(--projectCabBackground);
-    padding: 0 5px;
-    color: var(--accent);
-    font-family: var(--font-display);
-    font-size: 14px;
-}
-
-.theme-dark .container__7e23c {
-    border: var(--borders);
-    margin: 0 5px 1px 5px;
-    position: relative;
+  content: "Chat";
+  position: absolute;
+  top: -10px;
+  left: 50%;
+  transform: translateX(-50%);
+  background-color: var(--projectCabBackground);
+  padding: 0 5px;
+  color: var(--accent);
+  font-family: var(--font-display);
+  font-size: 14px;
 }
 
 .theme-dark .container__7e23c:before {
-    content: "Channels";
-    position: absolute;
-    top: -2px;
-    left: 15%;
-    transform: translateX(-50%);
-    background-color: var(--projectCabBackground);
-    padding: 0 5px;
-    color: var(--accent);
-    font-family: var(--font-display);
-    font-size: 10px;
+  content: "Channels";
+  position: absolute;
+  top: -2px;
+  left: 15%;
+  transform: translateX(-50%);
+  background-color: var(--projectCabBackground);
+  padding: 0 5px;
+  color: var(--accent);
+  font-family: var(--font-display);
+  font-size: 10px;
 }
