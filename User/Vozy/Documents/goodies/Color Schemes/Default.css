@@ -1,0 +1,20 @@
+/* ------ Default ------ */
+:root {
+    --projectCabBackground: rgb(18, 18, 18);
+    --projectCabBackground2: rgb(18, 18, 18);
+    --projectCabTextBackground: rgb(18, 18, 18);
+    --projectCabTitleBar: rgb(18, 18, 18);
+    --projectCabFauxTitleBar: rgb(0, 0, 0);
+    --projectCabHover: var(--accent-focused);
+  }
+  
+  /* Accents */
+  :root {
+    --bordersH: rgb(29, 185, 84); 
+    --accent: rgb(124, 124, 124);
+    --accent-hover: rgb(124, 124, 124, 0.977);
+    --accent-selected: rgb(49, 49, 49);
+    --accent-focused: rgb(49, 49, 49);
+    --accent-titles: rgba(198, 168, 55, 1);
+    --borders: rgba(124, 124, 124, 1) 1px solid;
+  }
