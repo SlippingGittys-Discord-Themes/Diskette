@@ -61,6 +61,9 @@ want to help? HOLY FUCK GOOD LUCK. im dense as hell and id be surprised if you c
 /* x-x-x-x-x Font x-x-x-x-x */
 @import url('https://slippinggittys-discord-themes.github.io/Diskette/User/Vozy/Documents/goodies/Fonts/DM Mono.css');
 
+/* Winbuttons Snippet - Moves the window closing buttons into the Titlebar*/
+@import url('https://slippinggittys-discord-themes.github.io/Diskette/User/Coolesding/Documents/snacks/winbuttons.css');
+
 /* >>>>>> Window Padding <<<<<<< */
 .content__76dcf {
   margin: 30px;
