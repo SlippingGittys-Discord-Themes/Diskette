@@ -19,7 +19,7 @@ P̵̧̧̨̳̣̯̤̮̞̦̩͓̝̻̚͠l̸̨͎̬͓̲̘̳̅ͅe̸̢̧͍̙̪͖͖͍̕͝�
   display: none;
 }
 .platform-win .winButton_f17fb6 { /*move and resize window buttons*/
-  top: 30px;
+  top: calc(var(--pad) + 30px);
   height: 48px;
   right: calc(var(--pad) + 20px);
 }
