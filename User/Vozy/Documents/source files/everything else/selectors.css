@@ -57,12 +57,12 @@
 .themed_b152d4 {
   background-color: var(--projectCabTitleBar);
   border: var(--borders);
-  margin: 0px 0px 10px -10px;
+  margin: 0px 0px 10px 10px;
   padding: 0px;
 }
 
 .subtitleContainer_f50402 {
-  margin-left: 20px;
+  margin-left: 0px;
 }
 
 .themed_b152d4:hover {
@@ -74,7 +74,7 @@
 }
 
 /* IDR LMAOOOO */
-#app-mount>div.appAsidePanelWrapper__5e6e2>div.notAppAsidePanel__95814>div.app_b1f720>div>div.layers__1c917.layers_a23c37>div>div>div>div>div.chat__52833>div.subtitleContainer_f50402>section>div>div.children_cde9af>div.iconWrapper_de6cd1 {
+.children_cde9af>.iconWrapper_de6cd1 {
   display: none;
 }
 
