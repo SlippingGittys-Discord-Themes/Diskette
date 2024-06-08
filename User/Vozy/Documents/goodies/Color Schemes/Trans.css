@@ -1,0 +1,45 @@
+/*
+ok so theres a few things to keep in mind 
+
+the fancy text headers that say "channels" and "Desc." etc on the borders work by placing the same varriable 
+that controls the color of the background of the theme as a background color for the text, giving the illusion of breaking the 
+border. 
+
+so when you're using this transparency-- wait, you thought this was a trans theme? i mean happy pride month but, eh, good idea.
+
+when using this color scheme, the background behind the text header goes away. even if it was it's own varriable, it would be hard
+to accomodate for transparency. a friend tells me there is a way, but it requires hacking into the whit house and turning it into a purple house
+or some shit-- so feel free to fix it for me if youd like. im sure as hell not. lmfao.
+
+*/
+
+/* Transparency */
+:root {
+  --projectCabBackground: rgba(18, 18, 18, 0);
+  --projectCabBackground2: rgba(0, 0, 0, 0.226);
+  --projectCabTextBackground: rgba(18, 18, 18, 0);
+  --projectCabTitleBar: rgba(18, 18, 18, 0);
+  --projectCabFauxTitleBar: rgba(0, 0, 0, 0);
+  --projectCabHover: var(--accent-focused);
+}
+
+:root {
+  --bordersH: rgb(0, 255, 234); 
+  --accent: rgb(0, 206, 195);
+  --accent-hover: rgb(124, 124, 124, 0.977);
+  --accent-selected: rgb(49, 49, 49);
+  --accent-focused: rgb(49, 49, 49);
+  --accent-titles: rgba(198, 168, 55, 1);
+  --borders: rgb(0, 163, 155) 1px solid;
+}
+
+.px__7f04f.botTag__4211a {
+  background-color: transparent;
+  border: var(--borders);
+  text-transform: lowercase;
+  color: var(--accent);
+}
+
+.guilds__2b93a, .content__76dcf * {
+  background-color: transparent !important;
+} */
