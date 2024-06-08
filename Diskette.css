@@ -1,7 +1,7 @@
 /**
  * @name Diskette
  * @author vozy
- * @version 0.1a
+ * @version 0.2a
  * @description A terminally-ill Discord theme inspired by the Spotify-Tui theme
 **/
 
@@ -62,8 +62,8 @@ want to help? HOLY FUCK GOOD LUCK. im dense as hell and id be surprised if you c
 @import url('https://slippinggittys-discord-themes.github.io/Diskette/User/Vozy/Documents/goodies/Fonts/DM Mono.css');
 
 /* >>>>>> Window Padding <<<<<<< */
-.content__76dcf {
-  margin: 30px;
+:root {
+  --pad: 25px;
 }
 
 
