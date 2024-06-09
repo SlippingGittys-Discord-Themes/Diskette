@@ -1,7 +1,7 @@
 <h1 align="center">D I S K E T T E</h1>
 <p align="center">work in progress </p>
 
-![image](https://github.com/SlippingGittys-Discord-Themes/Diskette/assets/76500838/b17d2b04-da96-4d85-93dd-e21dfe370872)
+![image](https://github.com/SlippingGittys-Discord-Themes/Diskette/assets/76500838/59537162-dd0b-41da-9f8d-a17619cec3f8)
 
 <h1 align="center">🛈</h1>
 <p align="center">
