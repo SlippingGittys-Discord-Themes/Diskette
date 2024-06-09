@@ -1,142 +1,153 @@
 /* Spotify */
 #vc-spotify-player {
-  font-size: 15px;
-  padding-top: 15px;
-  border: var(--borders);
-  margin-top: 5px;
-  margin-left: 5px;
-  margin-right: 5px;
+   font-size: 15px;
+   padding-top: 15px;
+   border: var(--borders);
+   margin-top: 5px;
+   margin-left: 5px;
+   margin-right: 5px;
 }
 
 #vc-spotify-player:hover {
-  border-color: var(--bordersH);
+   border-color: var(--bordersH);
 }
 
 .barFill__1f56b {
-  background-color: var(--bordersH);
-  border: 2px;
+   background-color: var(--bordersH);
+   border: 2px;
 }
 
 /* Everything else done to modify NoTheme into this obamanation */
 
 .container__7e23c {
-  border: var(--borders);
-  margin: 0px 5px 1px 5px;
+   border: var(--borders);
+   margin: 0px 5px 1px 5px;
 }
 
 .container__7e23c:hover {
-  border-color: var(--bordersH);
+   border-color: var(--bordersH);
 }
 
 /* DMs - Direct Messages */
 .privateChannels__9b518 {
-  border: var(--borders);
-  margin: 0px 5px 1px 5px;
+   border: var(--borders);
+   margin: 0px 5px 1px 5px;
 }
 
 .privateChannels__9b518:hover {
-  border-color: var(--bordersH);
+   border-color: var(--bordersH);
 }
 
 /* Text Box */
 .scroller__89969 {
-  border-right: transparent;
+   border-right: transparent;
 }
 
 /* Chat Window */
 .scroller_e412fe:hover {
-  border-color: var(--bordersH);
+   border-color: var(--bordersH);
 }
 
 .scroller_e412fe {
-  border: var(--borders);
-  margin: 10px 14px 15px 10px;
+   border: var(--borders);
+   margin: 10px 14px 15px 10px;
 }
 
 /* Title Bar */
 .themed_b152d4 {
-  background-color: var(--projectCabTitleBar);
-  border: var(--borders);
-  margin: 0 0 10px 10px;
-  width: calc(100% - 25px);
-  padding: 0px;
+   background-color: var(--projectCabTitleBar);
+   border: var(--borders);
+   margin: 0 0 10px 10px;
+   width: calc(100% - 25px);
+   padding: 0px;
 }
 
 .subtitleContainer_f50402 {
-  margin-left: 0px;
+   margin-left: 0px;
 }
 
 .themed_b152d4:hover {
-  border-color: var(--bordersH);
+   border-color: var(--bordersH);
 }
 
 .heading-md-semibold__76ba1 {
-  margin-left: 20px
+   margin-left: 20px;
 }
 
 /* IDR LMAOOOO */
-.children_cde9af>.iconWrapper_de6cd1 {
-  display: none;
+.children_cde9af > .iconWrapper_de6cd1 {
+   display: none;
 }
 
 .scrollableContainer_ff917f:hover {
-  border-color: var(--bordersH);
+   border-color: var(--bordersH);
 }
 
 /* THAT STUPID FUCKING USER BAR BULLSHIT FUCKING FUCK DICK FUCK FUCK SHIT FUCK DICK FUCK */
 .container_debb33 {
-  border: var(--borders);
-  margin: 7px 5px 16px 5px;
+   border: var(--borders);
+   margin: 7px 5px 16px 5px;
 }
 
 .scroller__1f498 {
-  border: 0px;
+   border: 0px;
 }
 
 .container_debb33:hover {
-  border-color: var(--bordersH);
+   border-color: var(--bordersH);
 }
 
 /* Members Sidebar */
 .members__573eb {
-  margin: 0px 5px 28px 10px !important;
-  border: solid 1px grey;
+   margin: 0px 5px 28px 10px !important;
+   border: solid 1px grey;
 }
 .members__573eb:hover {
-  border: solid 1px var(--bordersH);
+   border: solid 1px var(--bordersH);
 }
 .membersWrap__5ca6b {
-  border: transparent;
+   border: transparent;
 }
 .container_f79ab4 {
-  border-color: var(--bordersH);
+   border-color: var(--bordersH);
 }
 
 /* Adjustments for Chat */
 .inner__9fd0b {
-  padding: 2.5px 2.5px 2.5px 10px;
+   padding: 2.5px 2.5px 2.5px 10px;
 }
 
 .form_d8a4a1 {
-  margin-bottom: -6px;
-  padding-left: 10px;
-  padding-right: 14px;
+   margin-bottom: -6px;
+   padding-left: 10px;
+   padding-right: 14px;
 }
 
 .form_d8a4a1:hover {
-  border-color: var(--bordersH);
+   border-color: var(--bordersH);
 }
 
 /* Activies/Game */
 .activityPanel_b73e7a {
-  border: var(--borders);
-  margin: 5px 5px 16px 5px;
+   border: var(--borders);
+   margin: 5px 5px 16px 5px;
 }
 
 /* Window Padding */
 .content__76dcf {
-  margin: var(--pad);
+   margin: var(--pad);
 }
 .base_c0676e {
-  margin-top: var(--pad);
+   margin-top: var(--pad);
+}
+
+/* Checkboxes */
+.container__2ed72 > input[type='checkbox'],
+.checkboxWrapper-2fDzaA > input[type='checkbox'] {
+   appearance: none;
+   background-color: var(--projectCabBackground);
+}
+.container__2ed72 > input[type='checkbox']:checked,
+.checkboxWrapper-2fDzaA > input[type='checkbox']:checked {
+   appearance: revert;
 }
