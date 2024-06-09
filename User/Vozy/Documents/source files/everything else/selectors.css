@@ -97,6 +97,11 @@
    border-color: var(--bordersH);
 }
 
+.withTagAsButton_e22174, .withTagless__058f8 {
+  min-width: 115px;
+  padding-left: 0px;
+}
+
 /* Members Sidebar */
 .members__573eb {
    margin: 0px 5px 28px 10px !important;
