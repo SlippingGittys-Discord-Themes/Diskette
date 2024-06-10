@@ -105,7 +105,7 @@
 /* Members Sidebar */
 .members__573eb {
    margin: 0px 5px 28px 10px !important;
-   border: solid 1px grey;
+   border: var(--borders);
 }
 .members__573eb:hover {
    border: solid 1px var(--bordersH);
