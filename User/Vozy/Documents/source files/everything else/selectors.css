@@ -55,8 +55,8 @@
 
 /* Mini Context Menu */
 .wrapper__4e6b6 {
-  border: var(--borders);
-  background-color: var(--projectCabBackground2);
+   border: var(--borders);
+   background-color: var(--projectCabBackground2);
 }
 
 /* Title Bar */
@@ -103,9 +103,10 @@
    border-color: var(--bordersH);
 }
 
-.withTagAsButton_e22174, .withTagless__058f8 {
-  min-width: 115px;
-  padding-left: 0px;
+.withTagAsButton_e22174,
+.withTagless__058f8 {
+   min-width: 115px;
+   padding-left: 0px;
 }
 
 /* Members Sidebar */
@@ -161,4 +162,17 @@
 .container__2ed72 > input[type='checkbox']:checked,
 .checkboxWrapper-2fDzaA > input[type='checkbox']:checked {
    appearance: revert;
+}
+
+/* Streaming Box */
+/* can you make it smaller in width so it fits with the chatbar */
+.colorStreamerMode_cb7f84,
+.theme-dark .button__33db6,
+.theme-light .button__33db6 {
+   background-color: transparent;
+   border: var(--borders);
+}
+
+.colorStreamerMode_cb7f84:hover {
+   border-color: var(--bordersH);
 }
