@@ -53,6 +53,12 @@
    margin: 10px 14px 15px 10px;
 }
 
+/* Mini Context Menu */
+.wrapper__4e6b6 {
+  border: var(--borders);
+  background-color: var(--projectCabBackground2);
+}
+
 /* Title Bar */
 .themed_b152d4 {
    background-color: var(--projectCabTitleBar);
