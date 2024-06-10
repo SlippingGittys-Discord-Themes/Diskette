@@ -1,5 +1,5 @@
 <h1 align="center">D I S K E T T E</h1>
-<p align="center">work in progress </p>
+<p align="center">work in progress, pull requests are appreciated</p>
 
 ![image](https://github.com/SlippingGittys-Discord-Themes/Diskette/assets/76500838/d7660b93-7362-4ac5-9ac1-6473f5a08a29)
 
