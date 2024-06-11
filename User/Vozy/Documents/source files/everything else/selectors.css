@@ -162,3 +162,23 @@
 .checkboxWrapper-2fDzaA > input[type='checkbox']:checked {
    appearance: revert;
 }
+
+
+
+/*------------------------------------*/
+
+/* Diskette Branding */
+.info__755e1 > span:first-child::after {
+  content: "\a Diskette (06.24)";
+  color: var(--text-muted);
+  white-space: pre;
+  text-transform: none;
+  line-height: 17px !important;
+}
+.info__755e1 > span:first-child::before {
+  content: "\a meow ᓚᘏᗢ \a";
+  color: var(--text-muted);
+  white-space: pre;
+  text-transform: none;
+  line-height: 17px !important;
+}
