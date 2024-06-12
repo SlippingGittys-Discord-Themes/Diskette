@@ -11,13 +11,11 @@
 
 
 
+[Click here for info on how to make your own color schemes.](https://github.com/SlippingGittys-Discord-Themes/Diskette/wiki/Making-your-own-Color-Schemes)
 
 <details>
 <summary>Plans for the future & More </summary>
-  
-- easily configurable color schemes 
-  - it will be easy to make your own via variables supplied
-    
+      
 - translucency support
   - you can’t have a terminal open without also being able to see your anime boobie wallpaper in the background
   
