@@ -163,7 +163,37 @@
    appearance: revert;
 }
 
+/* Buttons */ 
+.lookFilled__950dd.colorBrand__27d57,
+.lookFilled__950dd.colorPrimary_ebe632 {
+  background-color: var(--projectCabBackground2);
+  border: var(--borders);
+}
 
+.lookFilled__950dd.colorBrand__27d57:hover,
+.lookFilled__950dd.colorPrimary_ebe632:hover {
+  background-color: var(--projectCabBackground2);
+  border: var(--bordersH) 1px solid;
+}
+
+/* Server & User settings */
+.side_b4b3f6 {
+  border: var(--borders);
+  padding: 15px;
+}
+
+.side_b4b3f6:hover {
+  border: var(--bordersH) 1px solid;
+}
+
+.contentColumnDefault__78de3 {
+  border: var(--borders);
+  margin: 60px;
+}
+
+.contentColumnDefault__78de3:hover {
+  border: var(--bordersH) 1px solid;
+}
 
 /*------------------------------------*/
 
