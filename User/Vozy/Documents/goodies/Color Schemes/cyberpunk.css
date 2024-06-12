@@ -1,0 +1,17 @@
+:root {
+  --projectCabBackground: rgb(0, 2, 27);
+  --projectCabBackground2: var(--projectCabBackground);
+  --projectCabTextBackground: var(--projectCabBackground);
+  --projectCabTitleBar: var(--projectCabBackground);
+  --projectCabHover: var(--accent-focused);
+}
+
+/* Accents */
+:root {
+  --accent: rgb(0, 255, 221);
+  --accent-hover: rgba(8, 0, 56, 0.977);
+  --accent-selected: rgb(18, 0, 83);
+  --accent-focused: rgb(29, 0, 46);
+  --borders: rgb(200, 65, 200) 1px solid;
+  --bordersH: rgb(255, 85, 255); 
+}
