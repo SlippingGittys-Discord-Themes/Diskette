@@ -6,8 +6,10 @@
 
 <h1 align="center">🛈</h1>
 <p align="center">
-  <img src="https://github.com/SlippingGittys-Discord-Themes/Diskette/assets/76500838/e11a60bd-8696-4f9c-be01-9033e494dad8" />
+  <img src="https://github.com/SlippingGittys-Discord-Themes/Diskette/assets/76500838/6e26922c-3ee9-4735-bdec-270dcdd1ed63" />
 </p>
+
+
 
 
 <details>
