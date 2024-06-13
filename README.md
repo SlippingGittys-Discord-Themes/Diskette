@@ -13,15 +13,11 @@
 </p>
 
 
-
+<details>
+<summary>Quick info links for customization </summary>
+      
 [Click here for info on how to make your own color schemes.](https://github.com/SlippingGittys-Discord-Themes/Diskette/wiki/Making-your-own-Color-Schemes)
 
-<details>
-<summary>Plans for the future & More </summary>
-      
-- translucency support
-  - you can’t have a terminal open without also being able to see your anime boobie wallpaper in the background
-  
-- several different icon & font options ootb
+[Click here for info on how to enable transparency.](https://github.com/SlippingGittys-Discord-Themes/Diskette/wiki/Transparency)
 
 </details>
