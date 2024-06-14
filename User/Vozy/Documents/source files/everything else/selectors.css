@@ -55,8 +55,8 @@
 
 /* Mini Context Menu */
 .wrapper__4e6b6 {
-  border: var(--borders);
-  background-color: var(--projectCabBackground2);
+   border: var(--borders);
+   background-color: var(--projectCabBackground2);
 }
 
 /* Title Bar */
@@ -81,7 +81,7 @@
 }
 
 /* IDR LMAOOOO */
-.children_cde9af > .iconWrapper_de6cd1 {
+.children_cde9af>.iconWrapper_de6cd1 {
    display: none;
 }
 
@@ -103,9 +103,10 @@
    border-color: var(--bordersH);
 }
 
-.withTagAsButton_e22174, .withTagless__058f8 {
-  min-width: 115px;
-  padding-left: 0px;
+.withTagAsButton_e22174,
+.withTagless__058f8 {
+   min-width: 115px;
+   padding-left: 0px;
 }
 
 /* Members Sidebar */
@@ -113,12 +114,15 @@
    margin: 0px 5px 28px 10px !important;
    border: var(--borders);
 }
+
 .members__573eb:hover {
    border: solid 1px var(--bordersH);
 }
+
 .membersWrap__5ca6b {
    border: transparent;
 }
+
 .container_f79ab4 {
    border-color: var(--bordersH);
 }
@@ -148,67 +152,98 @@
 .content__76dcf {
    margin: var(--pad);
 }
+
 .base_c0676e {
    margin-top: var(--pad);
 }
 
 /* Checkboxes */
-.container__2ed72 > input[type='checkbox'],
-.checkboxWrapper-2fDzaA > input[type='checkbox'] {
+.container__2ed72>input[type='checkbox'],
+.checkboxWrapper-2fDzaA>input[type='checkbox'] {
    appearance: none;
    background-color: var(--projectCabBackground);
 }
-.container__2ed72 > input[type='checkbox']:checked,
-.checkboxWrapper-2fDzaA > input[type='checkbox']:checked {
+
+.container__2ed72>input[type='checkbox']:checked,
+.checkboxWrapper-2fDzaA>input[type='checkbox']:checked {
    appearance: revert;
 }
 
-/* Buttons */ 
+/* Buttons */
 .lookFilled__950dd.colorBrand__27d57,
 .lookFilled__950dd.colorPrimary_ebe632 {
-  background-color: var(--projectCabBackground2);
-  border: var(--borders);
+   background-color: var(--projectCabBackground2);
+   border: var(--borders);
 }
 
 .lookFilled__950dd.colorBrand__27d57:hover,
 .lookFilled__950dd.colorPrimary_ebe632:hover {
-  background-color: var(--projectCabBackground2);
-  border: var(--bordersH) 1px solid;
+   background-color: var(--projectCabBackground2);
+   border: var(--bordersH) 1px solid;
 }
 
 /* Server & User settings */
 .side_b4b3f6 {
-  border: var(--borders);
-  padding: 15px;
+   border: var(--borders);
+   padding: 15px;
 }
 
 .side_b4b3f6:hover {
-  border: var(--bordersH) 1px solid;
+   border: var(--bordersH) 1px solid;
 }
 
 .contentColumnDefault__78de3 {
-  border: var(--borders);
-  margin: 60px;
+   border: var(--borders);
+   margin: 60px;
 }
 
 .contentColumnDefault__78de3:hover {
-  border: var(--bordersH) 1px solid;
+   border: var(--bordersH) 1px solid;
+}
+
+/* Unread Chanels */
+.unread__48cf4 {
+   top: 50%;
+   left: 0px;
+   background-color: var(--bordersH);
+}
+
+/* Ping */
+.numberBadge_c1210c {
+   background-color: var(--projectCabBackground2) !important;
+   border: var(--bordersH) 2px solid !important;
+}
+
+/* Guilds Mention */
+.mention_dd733a {
+   background-color: var(--projectCabBackground2) !important;
+   border: var(--bordersH) 2px solid !important;
+}
+
+/* Vencord Settings */
+.vc-addon-card {
+   border: var(--borders);
+}
+
+.vc-addon-card:hover {
+   border: var(--bordersH) solid 1px;
 }
 
 /*------------------------------------*/
 
 /* Diskette Branding */
-.info__755e1 > span:first-child::after {
-  content: "\a Diskette (06.24)";
-  color: var(--text-muted);
-  white-space: pre;
-  text-transform: none;
-  line-height: 17px !important;
+.info__755e1>span:first-child::after {
+   content: "\a Diskette (06.24)";
+   color: var(--text-muted);
+   white-space: pre;
+   text-transform: none;
+   line-height: 17px !important;
 }
-.info__755e1 > span:first-child::before {
-  content: "\a meow ᓚᘏᗢ \a";
-  color: var(--text-muted);
-  white-space: pre;
-  text-transform: none;
-  line-height: 17px !important;
+
+.info__755e1>span:first-child::before {
+   content: "\a meow ᓚᘏᗢ \a";
+   color: var(--text-muted);
+   white-space: pre;
+   text-transform: none;
+   line-height: 17px !important;
 }
