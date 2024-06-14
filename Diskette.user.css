@@ -1,0 +1,40 @@
+@-moz-document domain("discord.com") {
+    /* ==UserStyle==
+    @name         Diskette
+    @description  a Discord tui-like theme
+    @author       Vozer
+    @namespace    https://github.com/SlippingGitty/Diskette
+    @version      06.24
+    ==/UserStyle== */
+
+/* -- ▼▼▼ DO NOT TOUCH ▼▼▼ -------------------------------------------------------------------------------------------------------------------- */ 
+
+/* 🚫🚫🚫 Base Theme - Do NOT Eject - Literally notheme 🚫🚫🚫 */
+@import url('https://slippinggittys-discord-themes.github.io/Diskette/User/Vozy/Documents/source files/base.css');
+
+/*  🔌🔌🔌 Diskette Plugin - Do NOT Eject 🔌🔌🔌 */
+@import url('https://slippinggittys-discord-themes.github.io/Diskette/User/Vozy/Documents/source files/everything else/selectors.css');
+
+/* -- ▲▲▲ DO NOT TOUCH ▲▲▲ -------------------------------------------------------------------------------------------------------------------- */
+
+/* Color Scheme */
+@import url('https://slippinggittys-discord-themes.github.io/Diskette/User/Vozy/Documents/goodies/Color Schemes/Default.css');
+
+/* [][][][][][] Fancy Window Title Headers [][][][][][] */
+@import url('https://slippinggit tys-discord-themes.github.io/Diskette/User/Vozy/Documents/source files/everything else/border headers.css');
+
+/* 3-2-1-c-b-a Icons a-b-c-1-2-3 */
+@import url('https://slippinggittys-discord-themes.github.io/Diskette/User/Vozy/Documents/goodies/Icons/Clarity.css');
+
+/* x-x-x-x-x Font x-x-x-x-x */
+@import url('https://slippinggittys-discord-themes.github.io/Diskette/User/Vozy/Documents/goodies/Fonts/DM Mono.css');
+
+/* - [] x WinButtons - [] x */
+@import url('https://slippinggittys-discord-themes.github.io/Diskette/User/Vozy/Documents/source files/everything else/winbuttons.css');
+
+/* >>>>>> Window Padding <<<<<<< */
+:root {
+  --pad: 25px;
+}
+
+}
