@@ -229,6 +229,11 @@
    border: var(--bordersH) solid 1px;
 }
 
+/* Discord Logo */
+.wrapper_a6f950:hover .childWrapper__760c6, .wrapper_a6f950.selected_b420e6 .childWrapper__760c6  {
+  background-color: var(--projectCabBackground) !important;
+}
+
 /*------------------------------------*/
 
 /* Diskette Branding */
