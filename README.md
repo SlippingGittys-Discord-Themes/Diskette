@@ -21,3 +21,5 @@
 [Click here for info on how to enable transparency.](https://github.com/SlippingGittys-Discord-Themes/Diskette/wiki/Transparency)
 
 </details>
+
+#### For use with Discord modifications such as Vencord, BetterDiscord, etc.
