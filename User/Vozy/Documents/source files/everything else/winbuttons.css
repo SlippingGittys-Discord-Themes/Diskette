@@ -10,26 +10,26 @@ P̵̧̧̨̳̣̯̤̮̞̦̩͓̝̻̚͠l̸̨͎̬͓̲̘̳̅ͅe̸̢̧͍̙̪͖͖͍̕͝�
 
 */
 
-.platform-win .typeWindows_e41dab /*overlay the titlebar instead of adding it to the top*/{
+.platform-win .typeWindows_a934d8 /*overlay the titlebar instead of adding it to the top*/{
   height: 30px;
   padding: 0;
   margin:  0 0 calc(var(--pad) * -1) 0;
 }
-.platform-win .wordmark__5b8c9 /*remove discord watermark*/{
+.platform-win .wordmark_a934d8 /*remove discord watermark*/{
   display: none;
 }
-.platform-win .winButton_f17fb6 { /*move and resize window buttons*/
+.platform-win .winButton_a934d8 { /*move and resize window buttons*/
   top: calc(var(--pad) + 30px);
   height: 48px;
   right: calc(var(--pad) + 20px);
 }
-.platform-win .toolbar__62fb5 { /*move the buttons in the titlebar*/
+.platform-win .toolbar_e44302 { /*move the buttons in the titlebar*/
   margin-right: 84px;
 }
-.platform-win .winButtonMinMax_caf9c8:hover { /*remove the hover background on the window buttons*/
+.platform-win .winButtonMinMax_a934d8:hover { /*remove the hover background on the window buttons*/
   background: none;
 }
-.platform-win #app-mount:has(.layers__1c917>.stop-animations)>.typeWindows_e41dab>.winButton_f17fb6 { /*OPTIONAL: moves the window buttons back to a reasonable location when settings are opened*/
+.platform-win #app-mount:has(.layers_d4b6c5>.stop-animations)>.typeWindows_a934d8>.winButton_a934d8 { /*OPTIONAL: moves the window buttons back to a reasonable location when settings are opened*/
   top: 0;
   right: 0;
   height: 18px;
