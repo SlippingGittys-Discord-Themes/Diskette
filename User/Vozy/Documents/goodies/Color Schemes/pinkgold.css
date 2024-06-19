@@ -1,0 +1,27 @@
+:root {
+  --projectCabBackground: var(--projectCabBackground2);
+  --projectCabBackground2: rgb(13, 14, 15);
+  --projectCabTextBackground: var(--projectCabBackground2);
+  --projectCabTitleBar: var(--projectCabBackground2);
+  --projectCabFauxTitleBar: var(--projectCabBackground2);
+  --projectCabHover: var(--accent-focused);
+}
+
+:root {
+  --bordersH: rgb(212, 135, 156); 
+  --accent: rgb(177, 98, 134);
+  --accent-hover: #4c566a;
+  --accent-selected: rgb(13, 14, 15);
+  --accent-focused: #3b4252;
+  --borders: rgb(175, 112, 129) 1px solid;
+}
+
+span {
+  color: rgb(255, 205, 218) !important;
+}
+
+.cozy_ec86aa .timestamp_ec86aa, .overflow_c74e70, #vc-spotify-song-title, div, .icon_d8bfb3 {
+  color: rgb(212, 135, 156) !important;
+}
+
+/* kids, please dont do anything that vozy just did right here. its generally a bad idea. thats why vozy did it. hehe *gargles mouth wash and drinks it* u-uwa.. >w< */
