@@ -1,14 +1,3 @@
-# June 18th 2024
-# ahhh what t he fuck what why is there BIG SCARY  TEXT in the begining of the readme file iM SCARED
-
-## a discord updated broked everything
-### that means you have to wait for me to fix it
-#### which really means waiting for someone to update one of those class re-roll scripts
-which means waiting for me to use it and carry on
-
-
-
-
 <p align="center">
   <img src="https://github.com/SlippingGittys-Discord-Themes/Diskette/assets/76500838/100f2a9e-0da5-4c91-ae34-7d349be7a0d3" />
 </p>
