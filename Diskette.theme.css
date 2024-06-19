@@ -1,7 +1,7 @@
 /**
  * @name Diskette
- * @author vozy
- * @version 06.24-v5b
+ * @author vozercozer
+ * @version 06.24-v6b
  * @description A terminally-ill Discord theme inspired by the Spotify-Tui theme
 **/
 
@@ -9,13 +9,19 @@
 
 Version notes:
 
- ############# Version 06.24 Beta 5 ################
+ ############# Version 06.24 Beta 6 ################
 
-- Out of Alpha stages, into Beta stages. 
-   1. This is mostly ready usage but not completely finished
-   2. Somethings are broken, some things aren't covered.
-   3. Please report everything you see wrong. I also accept pull requests most of the time.
-   4. Penis. Penis Penis Penis. Peeeenis. Penis. LMAO. PENIS. COCK! BALLS!!! BAllls!!!! ballsalaslLl!!! 
+- Minor tweaks made for consistency:
+    - Default padding is changed from 30px to 10px.
+    - Author name is changed to my usual handle
+    - Color Schemes comment is more uniform with others
+    - Working after the recent class re-roll
+
+
+- Authors Notes:
+    - Considering removing the Radial Status snipit from the base theme, and making it an option.
+    - I want to further de-couple this theme from NoTheme, for better customization flexability.
+    - The README would be a better place to put this, right? I should fix that later LOL.
 
  ----------------------------------------------------------------------------------------------------------------------- */
 
@@ -39,7 +45,7 @@ Version notes:
 
 /* -- ▲▲▲ DO NOT TOUCH ▲▲▲ -------------------------------------------------------------------------------------------------------------------- */
 
-/* Color Scheme */
+/* 🖌🖌🖌 Color Scheme 🖌🖌🖌 */
 @import url('https://slippinggittys-discord-themes.github.io/Diskette/User/Vozy/Documents/goodies/Color Schemes/Default.css');
 
 /* [][][][][][] Fancy Window Title Headers [][][][][][] */
