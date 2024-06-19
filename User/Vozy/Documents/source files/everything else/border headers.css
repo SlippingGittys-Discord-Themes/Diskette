@@ -1,5 +1,5 @@
 /* Fancy Text Headers*/
-.theme-dark .themed_b152d4:before {
+.theme-dark .themed_e44302:before {
   content: "Desc.";
   position: absolute;
   top: -6px;
@@ -12,7 +12,7 @@
   font-size: 10px;
 }
 
-.scrollableContainer_ff917f:before {
+.scrollableContainer_d0696b:before {
   content: "Chat";
   position: absolute;
   top: -10px;
@@ -25,7 +25,7 @@
   font-size: 14px;
 }
 
-.theme-dark .container__7e23c:before {
+.theme-dark .container_ee69e0:before {
   content: "Channels";
   position: absolute;
   top: -2px;
@@ -38,7 +38,7 @@
   font-size: 10px;
 }
 
-.membersWrap__5ca6b:after {
+.membersWrap_cbd271:after {
   content: "Members";
   position: absolute;
   top: -5px;
@@ -51,7 +51,7 @@
   font-size: 10px;
 }
 
- .sidebar_e031be:after {
+ .sidebar_a4d4d9:after {
   content: "Channels";
   position: absolute;
   top: -2px;
