@@ -17,7 +17,7 @@
 
 /* -- ▲▲▲ DO NOT TOUCH ▲▲▲ -------------------------------------------------------------------------------------------------------------------- */
 
-/* Color Scheme */
+/* 🖌🖌🖌 Color Scheme 🖌🖌🖌 */
 @import url('https://slippinggittys-discord-themes.github.io/Diskette/User/Vozy/Documents/goodies/Color Schemes/Default.css');
 
 /* [][][][][][] Fancy Window Title Headers [][][][][][] */
@@ -30,11 +30,12 @@
 @import url('https://slippinggittys-discord-themes.github.io/Diskette/User/Vozy/Documents/goodies/Fonts/DM Mono.css');
 
 /* - [] x WinButtons - [] x */
-@import url('https://slippinggittys-discord-themes.github.io/Diskette/User/Vozy/Documents/source files/everything else/winbuttons.css');
+@import url('https://slippinggittys-discord-themes.github.io//Diskette/User/Vozy/Documents/source files/everything else/winbuttons.css');
 
-/* >>>>>> Window Padding <<<<<<< */
+/* >>>>>> Window Padding + Border <<<<<<< */
 :root {
-  --pad: 25px;
+  --pad: 30px;
+  --showBorder: hidden; /* If your Color Scheme supports this feautre *and* you're on Windows, erase "hidden" */
 }
 
 }
