@@ -4,8 +4,8 @@
 
 ## Default
 
-![image](https://github.com/SlippingGittys-Discord-Themes/Diskette/assets/76500838/8c38fe9e-185b-4c98-b459-fbfbea6bae1c)
-  
+![image](https://github.com/SlippingGittys-Discord-Themes/Diskette/assets/76500838/f10dc59b-306b-45b2-8283-8d10b2893cb0)
+
 ## Floral
   
 ![image](https://github.com/SlippingGittys-Discord-Themes/Diskette/assets/76500838/9ba707a9-0aa1-40e4-8003-ea5b5c16f29b)
