@@ -13,6 +13,7 @@
 }
 
 .barFill_c7a159 {
+   background-image: repeating-linear-gradient(90deg, #000, #000 2px, transparent 2px, transparent 5px);
    background-color: var(--bordersH);
    border: 2px;
 }
