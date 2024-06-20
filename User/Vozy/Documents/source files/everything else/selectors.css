@@ -221,6 +221,13 @@
    border: var(--bordersH) 2px solid !important;
 }
 
+/* Guilds Ping */
+.item_fd07a3 {
+  width: 3px;
+  margin-left: 3px;
+  background-color: var(--accent);
+}
+
 /* Vencord Settings */
 .vc-addon-card {
    border: var(--borders);
