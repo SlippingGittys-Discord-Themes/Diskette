@@ -13,5 +13,23 @@
   --accent-selected: rgb(18, 0, 83);
   --accent-focused: rgb(29, 0, 46);
   --borders: rgb(200, 65, 200) 1px solid;
-  --bordersH: rgb(255, 85, 255); 
+  --bordersH: rgb(255, 85, 255);
+  --bordersW: rgba(200, 65, 200);
 }
+
+/* Window Border for Windows */
+.platform-win body::before {
+    border: var(--bordersW) 2px solid;
+    border-radius: 1px;
+
+/* The following can generally be ignored, feel free to play with this if you want.
+   This basically just keeps the border where it should be, and allows toggling visibility */
+    content: "";
+    position: fixed;
+    width: 100%;
+    height: 100%;
+    box-sizing: border-box;
+    pointer-events: none;
+    z-index: 9999;
+    visibility: var(--showBorder, visible);
+  }
