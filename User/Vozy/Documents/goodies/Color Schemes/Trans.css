@@ -33,13 +33,13 @@ or some shit-- so feel free to fix it for me if youd like. im sure as hell not. 
   --borders: rgb(0, 163, 155) 1px solid;
 }
 
-.px__7f04f.botTag__4211a {
+.px_a02df3.botTag_a02df3 {
   background-color: transparent;
   border: var(--borders);
   text-transform: lowercase;
   color: var(--accent);
 }
 
-.guilds__2b93a, .content__76dcf * {
+.guilds_a4d4d9, .content_a4d4d9 * {
   background-color: transparent !important;
-} */
+} 
