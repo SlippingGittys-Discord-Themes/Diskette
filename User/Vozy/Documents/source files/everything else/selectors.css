@@ -263,6 +263,14 @@ button.button_f67531 {
   font-size: 30px;
   color: var(--accent);
 }
+.heading-xxl\/extrabold_dc00ef {
+  font-family: "asciid" !important;
+  font-size: 40px;
+  color: var(--bordersH);
+}
+.emptyChannelIconComponent_c2668b {
+  display: none;
+}
 
 /* Friends List */
 .peopleColumn_c2739c {
