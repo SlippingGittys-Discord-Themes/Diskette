@@ -243,6 +243,23 @@
   background-color: var(--projectCabBackground) !important;
 }
 
+/* Header Ascii Text */
+.heading-xxl\/semibold_dc00ef {
+  font-family: "asciid" !important;
+  font-size: 40px;
+  color: var(--bordersH);
+}
+.header_bf550a {
+  font-family: "asciid" !important;
+  font-size: 30px;
+  color: var(--bordersH);
+}
+.defaultColor_c46f6a, .heading-lg\/semibold_dc00ef {
+  font-family: "asciid" !important;
+  font-size: 30px;
+  color: var(--accent);
+}
+
 /*------------------------------------*/
 
 /* Diskette Branding */
