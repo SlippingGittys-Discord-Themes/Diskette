@@ -260,6 +260,16 @@
   color: var(--accent);
 }
 
+/* Friends List */
+.peopleColumn_c2739c {
+  margin: 16px 16px 16px 11px;
+  border: var(--borders);
+}
+.nowPlayingColumn_c2739c {
+  margin: 16px;
+  border: var(--borders);
+}
+
 /*------------------------------------*/
 
 /* Diskette Branding */
