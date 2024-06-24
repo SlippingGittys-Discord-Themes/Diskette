@@ -220,6 +220,13 @@ button.button_f67531 {
    border: var(--bordersH) 2px solid !important;
 }
 
+/* Guilds placement */
+.scroller_fea3ef {
+   position: fixed;
+   top: 20px; 
+   left: 10px; 
+} 
+
 /* Guilds Mention */
 .mention_c10249 {
    background-color: var(--projectCabBackground2) !important;
