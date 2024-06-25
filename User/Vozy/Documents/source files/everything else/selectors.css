@@ -220,12 +220,28 @@ button.button_f67531 {
    border: var(--bordersH) 2px solid !important;
 }
 
-/* Guilds placement */
-.scroller_fea3ef {
-   position: fixed;
-   top: 20px; 
-   left: 10px; 
-} 
+/* Forums */
+.postTitleText_d331f1 {
+  font-family: "DM Mono" !important;
+  font-size: 20px;
+}
+.list_a6d69a>div:first-child {
+  background-color: var(--projectCabBackground);
+}
+.full-motion .container_d331f1 {
+  border: var(--borders);
+  background-color: var(--projectCabBackground);
+}
+.collapsed_c1668f {
+  background-color: var(--projectCabBackground);
+  border: 0px;
+}
+.list_a6d69a, .grid_a6d69a {
+  border: var(--borders);
+}
+.container_a6d69a {
+  margin: 10px 10px 17px 10px;
+}
 
 /* Guilds Mention */
 .mention_c10249 {
