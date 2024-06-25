@@ -276,10 +276,10 @@ button.button_f67531 {
   font-size: 40px;
   color: var(--bordersH);
 }
-.header_bf550a {
+.defaultMarginh1_c46f6a, .defaultMarginh2_c46f6a, .header_bf550a {
   font-family: "asciid" !important;
   font-size: 30px;
-  color: var(--bordersH);
+  color: var(--accent);
 }
 .heading-xxl\/extrabold_dc00ef {
   font-family: "asciid" !important;
