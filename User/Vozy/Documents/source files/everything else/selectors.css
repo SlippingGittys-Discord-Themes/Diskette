@@ -257,10 +257,10 @@ button.button_f67531 {
 }
 
 /* Guilds Placement */
-.platform-win .scroller_fea3ef {
-  position: fixed;
-  top: 20px; 
-  padding-left: 10px; 
+.scroller_fea3ef {
+  position: fixed !important;
+  top: 20px !important; 
+  padding-left: 10px !important; 
 } 
 
 /* Vencord Settings */
