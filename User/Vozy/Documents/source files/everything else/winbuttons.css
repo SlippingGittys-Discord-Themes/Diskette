@@ -23,7 +23,7 @@ P̵̧̧̨̳̣̯̤̮̞̦̩͓̝̻̚͠l̸̨͎̬͓̲̘̳̅ͅe̸̢̧͍̙̪͖͖͍̕͝�
   height: 48px;
   right: calc(var(--pad) + 20px);
 }
-.platform-win .toolbar_e44302 { /*move the buttons in the titlebar*/
+.platform-win .toolbar_fc4f04 { /*move the buttons in the titlebar*/
   margin-right: 84px;
 }
 .platform-win .winButtonMinMax_a934d8:hover { /*remove the hover background on the window buttons*/
