@@ -311,18 +311,9 @@ section[class*="themed"] {
     padding: 0px;
 }
 
-.subtitleContainer_a7d72e {
-    margin-left: 0px;
-}
-
 section[class*="themed"]:hover {
     border-color: var(--bordersH);
 }
-
-.heading-md\/semibold_dc00ef {
-    margin-left: 20px;
-}
-
 
 /* user panel in sidebar */
 section[class^="panels"]>div[class^="container"] {
