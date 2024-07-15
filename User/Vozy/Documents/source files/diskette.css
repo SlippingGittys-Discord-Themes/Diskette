@@ -315,7 +315,7 @@ section[class*="themed"] {
     margin-left: 0px;
 }
 
-.theme-dark .themed_fc4f04:hover {
+section[class*="themed"]:hover {
     border-color: var(--bordersH);
 }
 
