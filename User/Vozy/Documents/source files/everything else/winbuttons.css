@@ -40,8 +40,10 @@ P̵̧̧̨̳̣̯̤̮̞̦̩͓̝̻̚͠l̸̨͎̬͓̲̘̳̅ͅe̸̢̧͍̙̪͖͖͍̕͝�
     filter: brightness(2);
 }
 
-.platform-win [class*="subtitleContainer_"] [class*="toolbar_"],
-.platform-win [class*="upperContainer_"] [class*="toolbar_"] { /*makes space for titlebar buttons*/
+/*makes space for titlebar buttons*/
+.platform-win [class*="subtitleContainer_"] [class*="toolbar_"], /*general chat*/
+.platform-win [class*="upperContainer_"] [class*="toolbar_"], /*friends page*/
+.platform-win [class^="callContainer_"] [class^="root_"]>div:has([class*="chatButton_"]) button { /*inside call/screenshare*/
     margin-right: calc(var(--pad) * 5.5);
 }
 
