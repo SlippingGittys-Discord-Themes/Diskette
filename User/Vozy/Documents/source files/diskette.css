@@ -305,7 +305,6 @@ main[class*="chatContent"]>div>[class^="scroller"] {
 
 /* Title Bar */
 .theme-dark .themed_fc4f04 {
-    background-color: var(--projectCabTitleBar);
     border: var(--borders);
     margin: 0 0 10px 10px;
     width: calc(100% - 25px);
