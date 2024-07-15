@@ -444,10 +444,9 @@ li[class^="containerDefault_"] [class*="unread_"] {
 
 /* Guilds Placement */
 
-nav[class*="guilds"]>ul>[class^="scroller"] {
-    position: fixed;
-    top: 20px;
-    padding-left: 10px;
+nav[class*="guilds"] {
+    top: var(--pad);
+    padding: 0 5px;
 }
 
 /* Vencord Settings */
