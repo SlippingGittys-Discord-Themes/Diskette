@@ -1,0 +1,570 @@
+@import url("https://fonts.cdnfonts.com/css/asciid");
+
+.theme-dark {
+    --projectCabBackground: rgb(18, 18, 18);
+    --projectCabBackground2: rgb(18, 18, 18);
+    --projectCabTextBackground: rgb(18, 18, 18);
+    --projectCabTitleBar: rgb(18, 18, 18);
+    --projectCabFauxTitleBar: rgb(0, 0, 0);
+    --projectCabHover: var(--accent-focused);
+}
+
+.theme-light {
+    --projectCabBackground: rgb(255, 255, 255);
+}
+
+:root {
+    --bordersH: rgb(29, 185, 84);
+    --accent: rgb(124, 124, 124);
+    --accent-hover: rgb(124, 124, 124, 0.977);
+    --accent-selected: rgba(49, 49, 49, 0.4);
+    --accent-focused: rgba(49, 49, 49, 0.4);
+    --accent-titles: rgba(198, 168, 55, 1);
+    --borders: rgba(124, 124, 124, 1) 1px solid;
+
+    --pad: 20px;
+}
+
+:root {
+    --background-tertiary: var(--projectCabBackground2);
+    --background-secondary: var(--projectCabBackground2);
+    --background-secondary-alt: var(--projectCabBackground2);
+    --background-primary: var(--projectCabBackground);
+    --channeltextarea-background: var(--projectCabTextBackground);
+    --modal-background: var(--projectCabBackground2);
+    --modal-footer-background: var(--projectCabBackground2);
+    --home-background: var(--projectCabBackground2);
+    --background-accent: var(--accent);
+    --background-modifier-hover: var(--projectCabHover);
+    --background-modifier-active: rgb(30, 30, 30);
+    --background-modifier-selected: var(--accent-selected);
+    --deprecated-card-bg: #12141f63;
+    --background-floating: rgba(35, 35, 35, 0.771);
+    --deprecated-quickswitcher-input-background: #101320;
+    --elevation-low: none;
+    --toast-background: #000000;
+    --toast-header: #000000;
+    --toast-contents: #000000;
+    --brand-experiment-500: var(--accent-selected);
+    --brand-experiment-560: var(--accent-selected);
+    --brand-experiment: var(--accent);
+    --primary-530: var(--projectCabBackground2);
+    --primary-560: var(--projectCabBackground2);
+    --primary-600: var(--projectCabBackground2);
+    --primary-630: var(--projectCabBackground2);
+    --primary-645: var(--projectCabBackground2);
+    --primary-660: var(--projectCabBackground2);
+    --primary-700: var(--projectCabBackground2);
+    --primary-730: var(--projectCabBackground2);
+    --primary-760: var(--projectCabBackground2);
+    --primary-800: var(--projectCabBackground2);
+    --primary-830: var(--projectCabBackground2);
+    --primary-860: var(--projectCabBackground2);
+    --primary-900: var(--projectCabBackground2)
+}
+
+@media only screen and (max-width: 1100px) {
+    div[class^="contentColumn_"] {
+        max-width: 30%;
+    }
+
+    div[class^="noticeRegion_"] {
+        position: fixed;
+    }
+}
+
+/* Square Off */
+#app-mount * {
+    border-radius: 0;
+}
+
+.full-motion ::-webkit-scrollbar-thumb,
+.full-motion ::-webkit-scrollbar-track {
+    border-radius: 0;
+}
+
+.theme-dark ::-webkit-scrollbar-thumb,
+.theme-light ::-webkit-scrollbar-thumb {
+    background-color: var(--bordersH);
+}
+
+foreignObject[mask*="url(#"] {
+    mask: none;
+    -webkit-mask: none;
+}
+
+/* user panel */
+
+div[class^="avatarWrapper_"] {
+    max-width: max-content;
+    min-width: 20px;
+}
+
+section[class^="panels_"] div[class^="container_"] {
+    justify-content: space-between;
+}
+
+/* The faux title bar itself */
+[class*="typeMacOS"] {
+    position: relative;
+    width: 100%;
+    height: 35px;
+}
+
+.theme-dark [class*="typeMacOS"] {
+    background: var(--projectCabFauxTitleBar);
+}
+
+.platform-osx nav[class*="guilds_"] {
+    margin: 0;
+    padding: 0;
+}
+
+/* Chat Text Box Entering Area */
+
+[class^="channelTextArea_"]>[class*="scrollableContainer"] {
+    border: var(--borders);
+    padding-bottom: 2px;
+
+}
+
+[class^="channelTextArea_"]>[class*="scrollableContainer"]:hover {
+    border-color: var(--bordersH);
+}
+
+.theme-dark [class^="chatContent"] form:before {
+    display: none;
+}
+
+.theme-dark [class^="channelTextArea_"]>[class^="autocomplete_"] {
+    background-color: var(--projectCabBackground2);
+    border: var(--borders);
+}
+
+/* New Messages Bar*/
+[class*="newMessagesBar_"] {
+    margin-top: 3px;
+    border: var(--borders);
+    background-color: var(--projectCabBackground);
+}
+
+/* Channel */
+
+[class*="channel"]>[class*="interactive"],
+li[class*="containerDefault"]>[class*="wrapper"]>div {
+    border: 1px solid transparent;
+}
+
+[class*="channel"]>[class*="selected"],
+li[class*="selected"]>[class*="mode"]>div {
+    border: var(--borders);
+}
+
+[class*="membersWrap_"] {
+    border: var(--borders);
+    margin: 10px;
+}
+
+/* accented buttons i guess? */
+
+[type="button"] {
+    color: var(--accent);
+}
+
+/* Context Menus */
+[role="menu"] {
+    border: var(--borders);
+}
+
+/* Pinned messages */
+[class*="messagesPopoutWrap"] [class*="messageGroupWrapper"] {
+    border: var(--borders);
+}
+
+/* Emoji picker popout, other popouts etc. */
+[class*="contentWrapper"],
+[class*="recentMentionsPopout_"],
+[class*="messagesPopoutWrap_"],
+[class*="browser_"] {
+    border: var(--borders);
+    max-height: 75vh !important; /*why is this required? it's because discord sucks and has an inflexible layout that breaks easily*/
+}
+
+/* TROPICAL - CHECKBOXES - SLATE THEME - https://github.com/DiscordStyles/Slate/blob/master/LICENSE.md */
+/* epic
+ 
+ comm: trash, should be disposed of */
+#app-mount .container_cebd1c,
+.input_cebd1c,
+#app-mount .container_cebd1c,
+.input_cebd1c,
+#app-mount .checkboxWrapper-2fDzaA .input-2XRLou,
+#app-mount .checkboxWrapper-2fDzaA .input-3xr72x {
+    margin: 0;
+    opacity: 1;
+    height: 14px !important;
+    width: 14px !important;
+    position: relative;
+    cursor: var(--cursor);
+    -webkit-appearance: checkbox;
+    appearance: checkbox;
+    box-shadow: inset -1px -1px #fff, inset 1px 1px rgb(255, 255, 255), inset -2px -2px #ffffff, inset 2px 2px #ffffff;
+}
+
+#app-mount .container_cebd1c,
+#app-mount .checkboxWrapper-2fDzaA {
+    width: auto;
+    border-radius: 0;
+    background: transparent !important;
+    display: flex;
+    align-items: center;
+    box-shadow: none;
+    -webkit-box-shadow: none;
+    cursor: var(--cursor);
+}
+
+input[type="checkbox"] {
+    accent-color: rgb(0, 0, 0);
+}
+
+#app-mount .container_cebd1c .slider_cebd1c,
+#app-mount .checkboxWrapper-2fDzaA .slider_cebd1c {
+    display: none;
+}
+
+.theme-dark .checkbox-f1HnKB {
+    display: none;
+}
+
+/* Activity Now */
+[class*="itemCard"] {
+    border: var(--borders);
+}
+
+/* Jump to Present Bar */
+[class*="jumpToPresentBar_"] {
+    border: var(--borders);
+    background-color: var(--projectCabBackground2);
+}
+
+/* Code */
+#app-mount pre:has(code) code {
+    border: var(--borders);
+}
+
+/* Spotify */
+#vc-spotify-player {
+    font-size: 15px;
+    padding-top: 15px;
+    border: var(--borders);
+    margin-top: 5px;
+    margin-left: 5px;
+    margin-right: 5px;
+}
+
+#vc-spotify-player:hover {
+    border-color: var(--bordersH);
+}
+
+[class*="barFill_"] {
+    background-image: repeating-linear-gradient(90deg, #000, #000 2px, transparent 2px, transparent 5px);
+    background-color: var(--bordersH);
+    border: 2px;
+}
+
+/* Everything else done to modify NoTheme into this obamanation */
+
+/*sidebar stuff*/
+[class^="sidebar"]>[class^="container"] {
+    border: var(--borders);
+    margin: 0px 5px 1px 5px;
+}
+
+[class^="sidebar"]>[class^="container"]:hover {
+    border-color: var(--bordersH);
+}
+
+[class^="sidebar"]>[class^="privateChannels"] {
+    border: var(--borders);
+    margin: 0px 5px 1px 5px;
+}
+
+[class^="sidebar"]>[class^="privateChannels"]:hover {
+    border-color: var(--bordersH);
+}
+
+/* Chat Window */
+main[class*="chatContent"]>div>[class^="scroller"]:hover {
+    border-color: var(--bordersH);
+}
+
+main[class*="chatContent"]>div>[class^="scroller"] {
+    border: var(--borders);
+    margin: 10px 14px 15px 10px;
+}
+
+/* Title Bar
+ 
+ to do: fix pls */
+.themed_e44302 {
+    background-color: var(--projectCabTitleBar);
+    border: var(--borders);
+    margin: 0 0 10px 10px;
+    width: calc(100% - 25px);
+    padding: 0px;
+}
+
+.subtitleContainer_a7d72e {
+    margin-left: 0px;
+}
+
+.themed_e44302:hover {
+    border-color: var(--bordersH);
+}
+
+.heading-md\/semibold_dc00ef {
+    margin-left: 20px;
+}
+
+
+/* user panel in sidebar */
+section[class^="panels"]>div[class^="container"] {
+    border: var(--borders);
+    margin: 7px 5px 11px 5px;
+}
+
+section[class^="panels"]>div[class^="container"]:hover {
+    border-color: var(--bordersH);
+}
+
+/* Members Sidebar */
+[class*="members_"] {
+    margin: 0px 5px 28px 10px;
+    border: var(--borders);
+}
+
+[class*="members_"]:hover {
+    border-color: var(--bordersH);
+}
+
+[class^="membersWrap_"] {
+    border: transparent;
+}
+
+/* Adjustments for Chat */
+
+[class^="chatContent"] form[class*="form_"] {
+    margin-bottom: -6px;
+    padding-left: 10px;
+    padding-right: 14px;
+}
+
+[class^="chatContent"] form[class*="form_"]:hover {
+    border-color: var(--bordersH);
+}
+
+/* Window Padding */
+
+[class*="baseLayer"]>[class*="container"]>[class^="base_"]>[class^="content"] {
+    margin: var(--pad);
+}
+
+/* Checkboxes */
+input[type='checkbox'] {
+    appearance: none;
+    background-color: var(--projectCabBackground);
+}
+
+input[type='checkbox']:checked {
+    appearance: revert;
+}
+
+/* Buttons */
+[class*="lookFilled_"][class*="colorBrand_"],
+[class*="lookFilled_"][class*="colorPrimary_"] {
+    background-color: var(--projectCabBackground2);
+    border: var(--borders);
+}
+
+[class*="lookFilled_"][class*="colorBrand_"]:hover,
+[class*="lookFilled_"][class*="colorPrimary_"]:hover {
+    background-color: var(--projectCabBackground2);
+    border-color: var(--bordersH);
+}
+
+/* Server & User settings */
+[class^="standardSidebarView_"] nav[class^="sidebar_"]>[class^="side_"] {
+    border: var(--borders);
+    padding: 15px;
+}
+
+[class^="standardSidebarView_"] nav[class^="sidebar_"]>[class^="side_"]:hover {
+    border: var(--bordersH) 1px solid;
+}
+
+[class*="contentColumnDefault_"] {
+    border: var(--borders);
+    margin: 60px 40px;
+}
+
+[class*="contentColumnDefault_"] {
+    border: var(--bordersH) 1px solid;
+}
+
+/* Unread Chanels */
+li[class^="containerDefault_"] [class*="unread_"] {
+    top: 50%;
+    left: 0px;
+    background-color: var(--bordersH);
+}
+
+/* Ping */
+[class*="numberBadge_"] {
+    background-color: var(--projectCabBackground2);
+    border: var(--bordersH) 2px solid;
+}
+
+/* Forums */
+[data-list-id*="forum-channel-list-"] [class*="postTitleText_"] {
+    font-size: 15px;
+}
+
+.full-motion [class*="card"]>div[class*="mainCard_"] {
+    border: var(--borders);
+    background-color: var(--projectCabBackground);
+}
+
+[data-list-id*="forum-channel-list-"] [role="list"] {
+    border: var(--borders);
+}
+
+[class^="chat"]>[class^="content_"]>[class*="container"]:has([data-list-item-id*="forum-channel-list-"]) {
+    margin: 10px 10px 17px 10px;
+}
+
+/* Guilds Placement */
+
+nav[class*="guilds"]>ul>[class^="scroller"] {
+    position: fixed;
+    top: 20px;
+    padding-left: 10px;
+}
+
+/* Vencord Settings */
+.vc-addon-card {
+    border: var(--borders);
+}
+
+.vc-addon-card:hover {
+    border: var(--bordersH) solid 1px;
+}
+
+/* Header Ascii Text */
+[class*="heading-xxl\/semibold_"] {
+    font-family: "asciid";
+    font-size: 40px;
+    color: var(--bordersH);
+}
+
+[class*="defaultMarginh1"],
+[class*="defaultMarginh2"] {
+    font-family: "asciid";
+    font-size: 30px;
+    color: var(--accent);
+}
+
+[class*="heading-xxl\/extrabold_"] {
+    font-family: "asciid";
+    font-size: 40px;
+    color: var(--bordersH);
+}
+
+[class*="emptyChannelIconComponent_"] {
+    display: none;
+}
+
+/* Friends List */
+[class^="tabBody"] [class^="peopleColumn_"] {
+    margin: 16px 16px 16px 11px;
+    border: var(--borders);
+}
+
+[class*="nowPlayingColumn_"] {
+    margin: 16px;
+    border: var(--borders);
+}
+
+[class*="nowPlayingColumn_"]>aside>[class^="scroller_"] {
+    border-left: none;
+}
+
+/* Diskette Branding */
+[class^="copiableWrapper"]>div>[class*="info_"]>span:first-child::after {
+    content: "\a Using Diskette Theme";
+    color: var(--text-muted);
+    white-space: pre;
+    text-transform: none;
+    line-height: 17px;
+}
+
+[class^="copiableWrapper"]>div>[class*="info_"]>span:first-child::before {
+    content: "\a meow! ᓚᘏᗢ \a";
+    color: var(--text-muted);
+    white-space: pre;
+    text-transform: none;
+    line-height: 17px;
+}
+
+/*streamer mode
+cred: HerXayah*/
+
+[class*="colorStreamerMode_"] {
+    background-color: transparent;
+    border: var(--borders);
+    margin: calc(var(--pad) - 0.5rem) var(--pad) 0 var(--pad);
+}
+
+[class*="colorStreamerMode_"]:hover {
+    border-color: var(--bordersH);
+}
+
+/* cool border label/header shit
+aka. Fancy Text Headers */
+
+[class^="channelTextArea_"]>[class*="scrollableContainer"]:before {
+    content: "Chat";
+    position: absolute;
+    top: -0.7rem;
+    left: 50%;
+    transform: translateX(-50%);
+    background-color: var(--projectCabBackground);
+    padding: 0 5px;
+    color: var(--accent);
+    font-family: var(--font-display);
+    font-size: 0.9rem;
+}
+  
+[class^="container"]>[class^="membersWrap"]:after {
+    content: "Members";
+    position: absolute;
+    top: -0.4rem;
+    left: 1rem;
+    background-color: var(--projectCabBackground);
+    padding: 2px 5px;
+    color: var(--accent);
+    font-family: var(--font-display);
+    font-size: 0.7rem;
+}
+  
+[class^="content"]>[class^="sidebar_"]:after {
+    content: "Channels";
+    position: absolute;
+    top: -0.4rem;
+    left: 1rem;
+    background-color: var(--projectCabBackground);
+    padding: 2px 5px;
+    color: var(--accent);
+    font-family: var(--font-display);
+    font-size: 0.7rem;
+    z-index: 10;
+}

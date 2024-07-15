@@ -1,57 +1,9 @@
 @import url("https://fonts.googleapis.com/css2?family=Victor+Mono:ital,wght@0,100..700;1,100..700&display=swap");
 
-code, .codeBlockText_cdb578, .codeLine_cdb578, .markup_d6076c code.inline, .after_inlineCode_cdb578, .before_inlineCode_cdb578, .inlineCode_cdb578 {
-  font-family: "Victor Mono", mono, monospace;
-}
-
-* {
+:root {
   --font-primary: "Victor Mono", monospace;
   --font-display: "Victor Mono", monospace;
   --font-headline: "Victor Mono", monospace;
+  --font-code: "Victor Mono", monospace;
   text-rendering: optimizeLegibility;
-}
-
-/* Text Size */
-
-.compact_ec86aa .headerText_ec86aa,
-.cozy_ec86aa .headerText_ec86aa,
-.roleDot_ec86aa,
-.username_ec86aa,
-.container_e44302,
-.container_e44302 *,
-.name_f9647d,
-.headerText_c47fa9,
-.searchBar_f0963d .searchBarComponent_f0963d,
-.fontSize16Padding_d0696b,
-.numberBadge__40d6f,
-.labelContainer_d90b3d,
-.side_a0 .item_a0,
-.description_b89ec7,
-.labelDescriptor_b89ec7,
-.h5_c46f6a,
-.label_c46f6a,
-.legend_c46f6a,
-.app_a01fb1 button,
-.title_d1da5f,
-.name_d8bfb3,
-.base_d7ebeb .text_d7ebeb,
-.overflow_c74e70,
-.name_fd6364,
-.repliedTextPreview_ec86aa.clickable_ec86aa,
-.executedCommand_ec86aa .applicationName_d60e66,
-.executedCommand_ec86aa .commandName_ec86aa,
-.executedCommand_ec86aa .username_ec86aa,
-.repliedMessage_ec86aa .roleDot_ec86aa,
-.repliedMessage_ec86aa .username_ec86aa,
-.threadMessageAccessory_ec86aa .username_ec86aa,
-.cozy_ec86aa .timestamp_ec86aa,
-.embedAuthor_ad0b71,
-.embedDescription_ad0b71,
-.embedFields_ad0b71,
-.embedFooter_ad0b71,
-.embedMedia_ad0b71,
-.embedProvider_ad0b71,
-.embedTitle-2n1pE,
-.overlayBackground_c69a7b * {
-  font-size: 14px;
 }

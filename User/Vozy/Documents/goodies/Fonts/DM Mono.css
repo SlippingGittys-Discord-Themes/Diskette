@@ -1,59 +1,11 @@
 @import url("https://fonts.googleapis.com/css2?family=Anonymous+Pro:wght@400;700&family=Courier+Prime:wght@400;700&family=Cousine:wght@400;700&family=Cutive+Mono&family=DM+Mono:wght@300;400;500&family=Fira+Mono:wght@400;500;700&family=IBM+Plex+Mono:wght@100;200;300;400;500;600;700&family=Inconsolata:wght@200;300;400;500;600;700;800;900&family=Nanum+Gothic+Coding:wght@400;700&family=PT+Mono&family=Roboto+Mono:wght@100;200;300;400;500;600;700&family=Share+Tech+Mono&family=Source+Code+Pro:wght@200;300;400;500;600;700;800;900&family=Space+Mono:wght@400;700&family=Ubuntu+Mono:wght@400;700&family=VT323&display=swap");
 
-code, .codeBlockText_cdb578, .codeLine_cdb578, .markup_d6076c code.inline, .after_inlineCode_cdb578, .before_inlineCode_cdb578, .inlineCode_cdb578 {
-  font-family: "DM Mono", mono, monospace;
-}
-
-* {
+:root {
   --font-primary: "DM Mono", monospace;
   --font-display: "DM Mono", monospace;
   --font-headline: "DM Mono", monospace;
+  --font-code: "DM Mono", monospace;
   text-rendering: optimizeLegibility;
-}
-
-/* Text Size */
-
-.compact_ec86aa .headerText_ec86aa,
-.cozy_ec86aa .headerText_ec86aa,
-.roleDot_ec86aa,
-.username_ec86aa,
-.container_e44302,
-.container_e44302 *,
-.name_f9647d,
-.headerText_c47fa9,
-.searchBar_f0963d .searchBarComponent_f0963d,
-.fontSize16Padding_d0696b,
-.numberBadge__40d6f,
-.labelContainer_d90b3d,
-.side_a0 .item_a0,
-.description_b89ec7,
-.labelDescriptor_b89ec7,
-.h5_c46f6a,
-.label_c46f6a,
-.legend_c46f6a,
-.app_a01fb1 button,
-.title_d1da5f,
-.name_d8bfb3,
-.base_d7ebeb .text_d7ebeb,
-.overflow_c74e70,
-.name_fd6364,
-.repliedTextPreview_ec86aa.clickable_ec86aa,
-.executedCommand_ec86aa .applicationName_d60e66,
-.executedCommand_ec86aa .commandName_ec86aa,
-.executedCommand_ec86aa .username_ec86aa,
-.repliedMessage_ec86aa .roleDot_ec86aa,
-.repliedMessage_ec86aa .username_ec86aa,
-.threadMessageAccessory_ec86aa .username_ec86aa,
-.cozy_ec86aa .timestamp_ec86aa,
-.embedAuthor_ad0b71,
-.embedDescription_ad0b71,
-.embedFields_ad0b71,
-.embedFooter_ad0b71,
-.embedMedia_ad0b71,
-.embedProvider_ad0b71,
-.embedTitle-2n1pE,
-.overlayBackground_c69a7b * {
-  font-size: 14px;
 }
 
 .platform-win .scroller_fea3ef, .platform-osx .scroller_fea3ef {

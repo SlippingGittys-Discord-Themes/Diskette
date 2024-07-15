@@ -1,4 +1,4 @@
-:root {
+.theme-dark:root {
   --projectCabBackground: rgb(0, 0, 0);
   --projectCabBackground2: rgb(0, 0, 0);
   --projectCabTextBackground: rgb(0, 0, 0);
@@ -7,7 +7,7 @@
   --projectCabHover: var(--accent-focused);
 }
 
-:root {
+.theme-dark:root {
   --bordersH: rgb(0, 255, 234); 
   --accent: rgb(0, 255, 221);
   --accent-hover: rgb(124, 124, 124, 0.977);

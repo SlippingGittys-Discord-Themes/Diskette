@@ -1,4 +1,4 @@
-:root {
+.theme-dark:root {
   --projectCabBackground: rgb(0, 2, 27);
   --projectCabBackground2: var(--projectCabBackground);
   --projectCabTextBackground: var(--projectCabBackground);
@@ -7,7 +7,7 @@
 }
 
 /* Accents */
-:root {
+.theme-dark:root {
   --accent: rgb(0, 255, 221);
   --accent-hover: rgba(8, 0, 56, 0.977);
   --accent-selected: rgb(18, 0, 83);

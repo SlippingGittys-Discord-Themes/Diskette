@@ -12,7 +12,7 @@ or some shit-- so feel free to fix it for me if youd like. im sure as hell not. 
 */
 
 /* Color Scheme */
-:root {
+.theme-dark:root {
   --projectCabBackground: rgba(18, 18, 18, 0);
   --projectCabBackground2: rgba(0, 0, 0, 0.411);
   --projectCabTextBackground: rgba(18, 18, 18, 0);
@@ -22,7 +22,7 @@ or some shit-- so feel free to fix it for me if youd like. im sure as hell not. 
 }
 
 /* Accents */
-:root {
+.theme-dark:root {
   --accent: rgb(255, 150, 224);
   --accent-hover: rgba(8, 0, 56, 0.63);
   --accent-selected: rgba(13, 1, 56, 0.562);

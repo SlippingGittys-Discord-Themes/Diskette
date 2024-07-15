@@ -14,7 +14,7 @@ or some shit-- so feel free to fix it for me if youd like. im sure as hell not. 
 */
 
 /* Transparency */
-:root {
+.theme-dark:root {
   --projectCabBackground: rgba(18, 18, 18, 0);
   --projectCabBackground2: rgba(0, 0, 0, 0.226);
   --projectCabTextBackground: rgba(18, 18, 18, 0);
@@ -23,7 +23,7 @@ or some shit-- so feel free to fix it for me if youd like. im sure as hell not. 
   --projectCabHover: var(--accent-focused);
 }
 
-:root {
+.theme-dark:root {
   --bordersH: rgb(0, 255, 234); 
   --accent: rgb(0, 206, 195);
   --accent-hover: rgb(124, 124, 124, 0.977);
@@ -43,3 +43,15 @@ or some shit-- so feel free to fix it for me if youd like. im sure as hell not. 
 .guilds_a4d4d9, .content_a4d4d9 * {
   background-color: transparent !important;
 } 
+
+[class^="channelTextArea_"]>[class*="scrollableContainer"]:before {
+  display: none;
+}
+
+[class^="container"]>[class^="membersWrap"]:after {
+  display: none;
+}
+
+[class^="content"]>[class^="sidebar_"]:after {
+  display: none;
+}

@@ -1,29 +1,9 @@
 /**
  * @name Diskette
  * @author vozercozer
- * @version 06.24-v8b
+ * @version 1.0
  * @description A terminally-ill Discord theme inspired by the Spotify-Tui theme
 **/
-
-/* -----------------------------------------------------------------------------------------------------------------------
-
-Version notes:
-
- ############# Version 06.24 Beta 8 ################
-
-- Major tweaks added in this version:
-    - Header fonts (titles in settings, active now, channel welcomes) have the "Asciid" font.
-    - Fixed Friends List
-
-- Minor tweaks made for consistency:
-    - Radial Status is no longer in the base theme, you can now remove it from the theme file if you please.
-      - I noticed some people mentioning it messes with status indicator plugins, some people forked this theme just to remove it. OOPS, LOL!
-
-- Authors Notes:
-    - I want to further de-couple this theme from NoTheme, for better customization flexability.
-    - The README would be a better place to put this, right? I should fix that later LOL.
-
- ----------------------------------------------------------------------------------------------------------------------- */
 
 /*
    _    ____  _     _        _   _               __             __
@@ -34,38 +14,5 @@ Version notes:
   |_|                                                 |_____|     
 */
 
-
-/* -- ▼▼▼ DO NOT TOUCH ▼▼▼ -------------------------------------------------------------------------------------------------------------------- */ 
-
-/* 🚫🚫🚫 Base Theme - Do NOT Eject - Literally notheme 🚫🚫🚫 */
-@import url('https://slippinggittys-discord-themes.github.io/Diskette/User/Vozy/Documents/source files/base.css');
-
-/*  🔌🔌🔌 Diskette Plugin - Do NOT Eject 🔌🔌🔌 */
-@import url('https://slippinggittys-discord-themes.github.io/Diskette/User/Vozy/Documents/source files/everything else/selectors.css');
-
-/* -- ▲▲▲ DO NOT TOUCH ▲▲▲ -------------------------------------------------------------------------------------------------------------------- */
-
-/* 🖌🖌🖌 Color Scheme 🖌🖌🖌 */
-@import url('https://slippinggittys-discord-themes.github.io/Diskette/User/Vozy/Documents/goodies/Color Schemes/Default.css');
-
-/* [][][][][][] Fancy Window Title Headers [][][][][][] */
-@import url('https://slippinggittys-discord-themes.github.io/Diskette/User/Vozy/Documents/source files/everything else/border headers.css');
-
-/* 3-2-1-c-b-a Icons a-b-c-1-2-3 */
-@import url('https://slippinggittys-discord-themes.github.io/Diskette/User/Vozy/Documents/goodies/Icons/Clarity.css');
-
-/* x-x-x-x-x Font x-x-x-x-x */
-@import url('https://slippinggittys-discord-themes.github.io/Diskette/User/Vozy/Documents/goodies/Fonts/DM Mono.css');
-
-/* - [] x WinButtons - [] x */
-@import url('https://slippinggittys-discord-themes.github.io//Diskette/User/Vozy/Documents/source files/everything else/winbuttons.css');
-
-/* o𝝅o𝝅o Radial Status o𝝅o𝝅o */
-@import url('https://slippinggittys-discord-themes.github.io/Notheme/folder/folder%20of%20components/file%20with%20radial%20status.css');
-
-/* >>>>>> Window Padding + Border <<<<<<< */
-:root {
-  --pad: 30px;
-  --showBorder: hidden; /* If your Color Scheme supports this feautre *and* you're on Windows, erase "hidden" */
-}
-
+/* 🚫🚫🚫🔌🔌🔌 Diskette Base Theme - Do NOT Eject 🔌🔌🔌🚫🚫🚫 */
+@import url('https://slippinggittys-discord-themes.github.io/Diskette/User/Vozy/Documents/source files/diskette.css');
