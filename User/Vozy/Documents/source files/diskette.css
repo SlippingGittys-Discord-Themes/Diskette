@@ -303,29 +303,17 @@ main[class*="chatContent"]>div>[class^="scroller"] {
     margin: 10px 14px 15px 10px;
 }
 
-/* Title Bar
- 
- to do: fix pls */
-.themed_e44302 {
-    background-color: var(--projectCabTitleBar);
+/* Title Bar */
+section[class*="themed"] {
     border: var(--borders);
     margin: 0 0 10px 10px;
     width: calc(100% - 25px);
     padding: 0px;
 }
 
-.subtitleContainer_a7d72e {
-    margin-left: 0px;
-}
-
-.themed_e44302:hover {
+section[class*="themed"]:hover {
     border-color: var(--bordersH);
 }
-
-.heading-md\/semibold_dc00ef {
-    margin-left: 20px;
-}
-
 
 /* user panel in sidebar */
 section[class^="panels"]>div[class^="container"] {
