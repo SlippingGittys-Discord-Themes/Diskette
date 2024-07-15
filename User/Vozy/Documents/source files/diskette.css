@@ -303,10 +303,8 @@ main[class*="chatContent"]>div>[class^="scroller"] {
     margin: 10px 14px 15px 10px;
 }
 
-/* Title Bar
- 
- to do: fix pls */
-.themed_e44302 {
+/* Title Bar */
+.theme-dark .themed_fc4f04 {
     background-color: var(--projectCabTitleBar);
     border: var(--borders);
     margin: 0 0 10px 10px;
@@ -318,7 +316,7 @@ main[class*="chatContent"]>div>[class^="scroller"] {
     margin-left: 0px;
 }
 
-.themed_e44302:hover {
+.theme-dark .themed_fc4f04:hover {
     border-color: var(--bordersH);
 }
 
