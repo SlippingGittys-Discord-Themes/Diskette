@@ -32,6 +32,10 @@ P̵̧̧̨̳̣̯̤̮̞̦̩͓̝̻̚͠l̸̨͎̬͓̲̘̳̅ͅe̸̢̧͍̙̪͖͖͍̕͝�
     background-color: var(--bg-overlay-2,var(--background-secondary));
 }
 
+.platform-win #app-mount:has([class*="colorStreamerMode"]) [class*="winButton_"] { /*account for streamer mode stealing vertical space*/
+    top: calc(var(--pad) * 4.15);
+}
+
 .platform-win [class*="winButton_"]:hover {
     filter: brightness(2);
 }
