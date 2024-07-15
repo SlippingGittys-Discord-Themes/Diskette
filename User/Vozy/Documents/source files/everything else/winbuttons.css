@@ -40,7 +40,8 @@ P̵̧̧̨̳̣̯̤̮̞̦̩͓̝̻̚͠l̸̨͎̬͓̲̘̳̅ͅe̸̢̧͍̙̪͖͖͍̕͝�
     filter: brightness(2);
 }
 
-.platform-win [class*="subtitleContainer_"] [class*="toolbar_"] { /*move the buttons in the titlebar*/
+.platform-win [class*="subtitleContainer_"] [class*="toolbar_"],
+.platform-win [class*="upperContainer_"] [class*="toolbar_"] { /*makes space for titlebar buttons*/
     margin-right: calc(var(--pad) * 5.5);
 }
 
