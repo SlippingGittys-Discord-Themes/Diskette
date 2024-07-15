@@ -304,7 +304,7 @@ main[class*="chatContent"]>div>[class^="scroller"] {
 }
 
 /* Title Bar */
-.theme-dark .themed_fc4f04 {
+section[class*="themed"] {
     border: var(--borders);
     margin: 0 0 10px 10px;
     width: calc(100% - 25px);
