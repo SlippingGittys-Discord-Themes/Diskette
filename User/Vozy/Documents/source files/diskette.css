@@ -433,8 +433,7 @@ li[class^="containerDefault_"] [class*="unread_"] {
 /* Guilds Placement */
 
 nav[class*="guilds"] {
-    top: var(--pad);
-    padding: 0 5px;
+    padding: var(--pad) 5px;
 }
 
 /* Vencord Settings */
