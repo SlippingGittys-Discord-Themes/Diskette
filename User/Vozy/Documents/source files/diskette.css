@@ -342,13 +342,17 @@ section[class^="panels"]>div[class^="container"]:hover {
 /* Adjustments for Chat */
 
 [class^="chatContent"] form[class*="form_"] {
-    margin-bottom: -6px;
     padding-left: 10px;
     padding-right: 14px;
 }
 
 [class^="chatContent"] form[class*="form_"]:hover {
     border-color: var(--bordersH);
+}
+
+[class^="chatContent"] form[class*="form_"] [class^="channelTextArea"] {
+    margin-bottom: 18px;
+    margin-top: 1px;
 }
 
 /* Window Padding */
