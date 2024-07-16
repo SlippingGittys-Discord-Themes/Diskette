@@ -1,24 +1,15 @@
-/*
-ok so theres a few things to keep in mind 
-
-the fancy text headers that say "channels" and "Desc." etc on the borders work by placing the same varriable 
-that controls the color of the background of the theme as a background color for the text, giving the illusion of breaking the 
-border. 
-
-when using this color scheme, the background behind the text header goes away. even if it was it's own varriable, it would be hard
-to accomodate for transparency. a friend tells me there is a way, but it requires hacking into the whit house and turning it into a purple house
-or some shit-- so feel free to fix it for me if youd like. im sure as hell not. lmfao.
-
-*/
-
 /* Color Scheme */
 .theme-dark:root {
   --projectCabBackground: rgba(18, 18, 18, 0);
-  --projectCabBackground2: rgba(0, 0, 0, 0.411);
+  --projectCabBackground2: rgba(0, 0, 0, 0.35);
   --projectCabTextBackground: rgba(18, 18, 18, 0);
   --projectCabTitleBar: rgba(18, 18, 18, 0);
   --projectCabFauxTitleBar: rgba(0, 0, 0, 0);
   --projectCabHover: var(--accent-focused);
+  --primary-800: rgba(0, 0, 0, 0.9);
+  --primary-700: rgba(0, 0, 0, 0.9);
+  --primary-630: rgba(0, 0, 0, 0.9);
+  --primary-600: rgba(0, 0, 0, 0.9);
 }
 
 /* Accents */
@@ -26,18 +17,28 @@ or some shit-- so feel free to fix it for me if youd like. im sure as hell not. 
   --accent: rgb(255, 150, 224);
   --accent-hover: rgba(8, 0, 56, 0.63);
   --accent-selected: rgba(13, 1, 56, 0.562);
-  --accent-focused: rgba(29, 0, 46, 0.493);
+  --accent-focused: rgba(68, 0, 107, 0.393);
   --borders: rgb(42, 102, 180) 1px dashed;
   --bordersH: rgb(255, 85, 255);
   --bordersW: rgba(200, 65, 200, 0.678); 
+  --interactive-normal: rgb(212, 135, 156);
+  --brand-500: rgb(144, 93, 106);
+  --brand-530: rgb(144, 93, 106);
+  --brand-560: rgb(144, 93, 106);
+}
+
+[class*="menus_"]>[class*="bite"], [class*="body_"]>[class*="activity_"] {
+    background-color: rgba(0, 0, 0, 0.1);
 }
 
 /* Wallpaper */
 body {
-  background-color: #00000000;
-  background-image: url("https://png.pngtree.com/thumb_back/fh260/background/20230610/pngtree-dark-purple-flower-with-light-pouring-from-behind-it-image_2949447.jpg");
-  background-size: cover;
+    background-color: #00000000;
+    background-image: url("https://png.pngtree.com/thumb_back/fh260/background/20230610/pngtree-dark-purple-flower-with-light-pouring-from-behind-it-image_2949447.jpg");
+    background-size: cover;
 }
+
+
 
 /* Window Border for Windows */
 .platform-win body::before {
@@ -60,34 +61,32 @@ body {
 
 /* everything else done to make sure this looks the way it does */
 
-/* changing the color of some fonts (the lazy way) */
 span {
-  color: rgb(255, 205, 218) !important;
+    color: rgb(255, 205, 218);
 }
 
-.cozy_ec86aa .timestamp_ec86aa, .overflow_c74e70, #vc-spotify-song-title, div, .icon_d8bfb3, .heading-md\/semibold_dc00ef {
-  color: rgb(212, 135, 156) !important;
+.theme-dark [class^="timestamp_"], [class*="name_"], #vc-spotify-song-title, [class*="linkButton_"], [class*="icon_"] {
+    color: rgb(212, 135, 156);
 }
 
-/* ^ kids, please dont do anything that vozy just did right here. its generally a bad idea. 
-thats why vozy did it. hehe *gargles mouth wash and drinks it* u-uwa.. >w< ^ */
+/* hehe *gargles mouth wash and drinks it* u-uwa.. >w< ^ */
 
 /* Transparency */
-.guilds_a4d4d9 {
-  background-color: transparent !important;
+nav[class*="guilds_"] {
+    background-color: transparent;
 } 
 
 /* Bot Tags */
-.px_a02df3.botTag_a02df3 {
-  background-color: transparent;
-  border: var(--borders);
-  text-transform: lowercase;
-  color: var(--accent);
+[class*="px_"][class*="botTag_"] {
+    background-color: transparent;
+    border: var(--borders);
+    text-transform: lowercase;
+    color: var(--accent);
 }
 
 /* Ping hehe */
-.numberBadge_df8943 {
-  background-color: black !important;
-  color: var(--accent) !important;
-  border: 1px dotted !important;
+#app-mount [class*="numberBadge_"] {
+    background-color: black;
+    color: var(--accent);
+    border: 1px dotted;
 }
