@@ -13,7 +13,7 @@
 </details>
 
 
-### HOW DO YOU INSTALL THIS????!!11!!
+# HOW DO YOU INSTALL THIS????!!11!!
 
 It's simple! If you're on the desktop app, use something like [Vencord](https://vencord.dev/) and go through these steps:
 
@@ -33,11 +33,11 @@ If you're on the web, an extension like [stylus](https://add0n.com/stylus.html) 
 the answer is no (for now)
 
 
-### How to customize your diskette?
+# How to customize your diskette?
 
 either paste these links (after diskette's theme link) in vencord themes, or import them in your stylus userstyle
 
-##### Monospace fonts
+#### Monospace fonts
 
 pick from one of these
 
@@ -53,13 +53,13 @@ Victor Mono:
 https://slippinggittys-discord-themes.github.io/Diskette/User/Vozy/Documents/goodies/Fonts/Victor Mono.css
 ```
 
-##### Custom icons
+#### Custom icons
 
 ```
 https://slippinggittys-discord-themes.github.io/Diskette/User/Vozy/Documents/goodies/Icons/Clarity.css
 ```
 
-##### WinButtons
+#### Win Buttons
 
 ```
 https://slippinggittys-discord-themes.github.io//Diskette/User/Vozy/Documents/source files/everything else/winbuttons.css
@@ -67,6 +67,8 @@ https://slippinggittys-discord-themes.github.io//Diskette/User/Vozy/Documents/so
 
 <details>
 <summary>Tap to view Diskette's other colorschemes! (and how to install them)</summary>
+
+---
 
 ## How to install a color scheme?
 
@@ -119,13 +121,23 @@ https://slippinggittys-discord-themes.github.io/Diskette/User/Vozy/Documents/goo
 
 [Click here for info on how to enable transparency.](https://github.com/SlippingGittys-Discord-Themes/Diskette/wiki/Transparency)
 
+## Contributing
+
+want to add or fix something in diskette? we appreciate that a lot! but before you make a PR make sure:
+
+- you don't select classes based on their absolute names, always make use of proper css selectors. e.g. `[attr*=val]`, `[foo^=bar]`  
+  *read up on: https://www.w3schools.com/cssref/css_selectors.php*
+  ![how to theme](https://github.com/user-attachments/assets/d12eaa65-c61c-48f9-a053-d0618bf55fa2)
+- you don't use `!important` unless required, and explain if you do. most specificity problems can be fixed with adding more specificity
+- you heavy duty test your changes and cover edge cases (can be done during review process)
+
 ---
 
-## Latest News!
+# Latest News!
 
 #### The SuperDisk Upgrade --- 2024-07-15
 
-hey there, css witch @nvkomata here to announce a rewrite of the diskette theme.
+hey there, css witch nvkomata here to announce a rewrite of the diskette theme.
 
 along with the rewrite comes a transition from versions to... no versions? yeah, we don't need them.
 
