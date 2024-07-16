@@ -338,9 +338,7 @@ Isn't clarity the name of a sinus medication?
   );
   transform: scale(.6, .6);
   fill: var(--accent);
-}
-.attachButtonInner_f298d4 {
-  margin-bottom: 5px;
+  transform-origin: 10% 10%;
 }
 
 
