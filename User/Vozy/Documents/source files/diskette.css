@@ -102,6 +102,15 @@ section[class^="panels_"] div[class^="container_"] foreignObject[mask*="url(#"],
     background-color: var(--bordersH);
 }
 
+/* experimental overflow styling */
+div[class*=sidebar],
+section[class*=title],
+div[class*=members],
+div[class*=userPanelOuter],
+main[class*=chatContent] {
+    overflow: hidden;
+}
+
 /* user panel */
 
 div[class^="avatarWrapper_"] {
