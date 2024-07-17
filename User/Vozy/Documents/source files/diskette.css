@@ -78,6 +78,20 @@
     border-radius: 0;
 }
 
+foreignObject[mask*="url(#"] {
+    mask: none;
+    -webkit-mask: none;
+}
+
+[class^="sidebar"]>[class^="privateChannels"] foreignObject[mask*="url(#"],
+section[class^="panels_"] div[class^="container_"] foreignObject[mask*="url(#"],
+[class^="tabBody"] [class^="peopleColumn_"] foreignObject[mask*="url(#"],
+[class*="members"] foreignObject[mask*="url(#"] {
+    clip-path: polygon(0 0, 100% 0, 50% 100%, 0% 100%);
+}
+
+/* scrollbar css */
+
 .full-motion ::-webkit-scrollbar-thumb,
 .full-motion ::-webkit-scrollbar-track {
     border-radius: 0;
@@ -86,11 +100,6 @@
 .theme-dark ::-webkit-scrollbar-thumb,
 .theme-light ::-webkit-scrollbar-thumb {
     background-color: var(--bordersH);
-}
-
-foreignObject[mask*="url(#"] {
-    mask: none;
-    -webkit-mask: none;
 }
 
 /* user panel */
