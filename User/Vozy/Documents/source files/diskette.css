@@ -208,50 +208,13 @@ li[class*="selected"]>[class*="mode"]>div {
     max-height: 75vh !important; /*why is this required? it's because discord sucks and has an inflexible layout that breaks easily*/
 }
 
-/* TROPICAL - CHECKBOXES - SLATE THEME - https://github.com/DiscordStyles/Slate/blob/master/LICENSE.md */
-/* epic
- 
- comm: trash, should be disposed of */
-#app-mount .container_cebd1c,
-.input_cebd1c,
-#app-mount .container_cebd1c,
-.input_cebd1c,
-#app-mount .checkboxWrapper-2fDzaA .input-2XRLou,
-#app-mount .checkboxWrapper-2fDzaA .input-3xr72x {
-    margin: 0;
-    opacity: 1;
-    height: 14px !important;
-    width: 14px !important;
-    position: relative;
-    cursor: var(--cursor);
-    -webkit-appearance: checkbox;
-    appearance: checkbox;
-    box-shadow: inset -1px -1px #fff, inset 1px 1px rgb(255, 255, 255), inset -2px -2px #ffffff, inset 2px 2px #ffffff;
-}
+/* slide toggles styling */
 
-#app-mount .container_cebd1c,
-#app-mount .checkboxWrapper-2fDzaA {
-    width: auto;
-    border-radius: 0;
-    background: transparent !important;
-    display: flex;
-    align-items: center;
-    box-shadow: none;
-    -webkit-box-shadow: none;
-    cursor: var(--cursor);
-}
-
-input[type="checkbox"] {
-    accent-color: rgb(0, 0, 0);
-}
-
-#app-mount .container_cebd1c .slider_cebd1c,
-#app-mount .checkboxWrapper-2fDzaA .slider_cebd1c {
+svg[class*="slider_"]>[fill="none"] {
     display: none;
 }
-
-.theme-dark .checkbox-f1HnKB {
-    display: none;
+svg[class*="slider_"]>rect {
+    rx: 0;
 }
 
 /* Activity Now */
