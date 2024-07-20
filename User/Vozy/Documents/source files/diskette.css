@@ -122,7 +122,10 @@ section[class^="panels_"] div[class^="container_"] {
     justify-content: space-between;
 }
 
-/* The faux title bar itself */
+/* The faux title bar itself 
+
+this could be causing issues, so let's keep it commented for now
+
 [class*="typeMacOS"] {
     position: relative;
     width: 100%;
