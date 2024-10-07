@@ -1,3 +1,5 @@
+# Archived used smth else
+
 <p align="center">
   <img src="https://github.com/SlippingGittys-Discord-Themes/Diskette/assets/76500838/100f2a9e-0da5-4c91-ae34-7d349be7a0d3" />
 </p>
